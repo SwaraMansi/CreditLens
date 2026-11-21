@@ -24,5 +24,5 @@ if errorlevel 1 (
 )
 echo.
 echo Launching CreditLens dashboard...
-python -m streamlit run app.py --browser.gatherUsageStats false
+python -m streamlit run streamlit_app.py --browser.gatherUsageStats false
 pause

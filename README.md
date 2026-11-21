@@ -17,6 +17,11 @@ An end-to-end fintech portfolio analytics application using Python, SQLite, Plot
 3. Double-click `run_project.bat`.
 4. On first run it creates a virtual environment, installs packages, downloads the UCI dataset, processes it, creates a SQLite database and Excel workbook, then launches the dashboard in your browser.
 
+## Streamlit Community Cloud
+1. Push the repository to GitHub.
+2. In Streamlit Community Cloud, choose the repository and set the main file to `streamlit_app.py`.
+3. The app downloads and processes the public UCI dataset automatically if processed data is not present.
+
 No MySQL server configuration is required. SQLite is used so the project runs out of the box. SQL queries are in `sql/analysis_queries.sql` and can be adapted to MySQL.
 
 ## Outputs
